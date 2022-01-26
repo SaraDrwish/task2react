@@ -1,6 +1,8 @@
-import {component} from 'react';
+import {Component} from 'react';
 
- class App extends component {
+ class App extends Component {
+
+
    state= {
      product1: [ {
        title:"pro1" ,
@@ -26,6 +28,27 @@ import {component} from 'react';
 
 
    };
+
+
+   render(){
+
+    return (
+  
+      <div>
+  
+  
+          
+      </div>
+    )
+     
+  
+   }
+
+   
  }
+
+
+ 
+
 
 export default App;

@@ -1,24 +1,24 @@
 // rcc
 import React from "react";
-import ProductsDetails from "./ProductsDetails/ProductsDetails";
+import ProductsDetails from "../ProductsDetails/ProductsDetails";
 
-    function Productslist(props){
+    function ProductsList(props){
 
- {/* const {prod} = props ; */}
- {/* const prod = props.prod; */}
+       const {prod} = props ;
+         // const prod = props.prod; 
 
-        return 
+        return (
                 <div>
                         
-                    {props.prod.map((products)=> {
-                        < index items={products } />
+                    {prod.map((products)=> {
+                        return < ProductsDetails item = {products} /> 
                     }) }
-                 
-                   
+
                 </div>
+        );
 
     }
 
-export default Productslist ;
+export default ProductsList ;
 
 

@@ -3,16 +3,17 @@ import React from "react";
 
   function ProductsDetails(props){
 
-    // const {item} = props ;
+    const {item} = props ;
 
     //const {id,title,price} = props;
 
-      return 
+      return (
 
    // {iteem.id}
 
-      <>{ props.item.id } {props.item.title} {props.item.price} </>
-    
+      <div> {item.id } {item.title} {item.price} {item.model} </div>
+      );
     }
+    
 
 export default ProductsDetails ;
